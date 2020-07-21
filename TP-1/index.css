@@ -1,0 +1,91 @@
+body{
+    background-color: #FBFFB9;   
+}
+.cabecera {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    height: 100px;
+    background-color: #EC7357;
+    justify-content: space-evenly;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    left: 30px;
+    top: -10px;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 40px;   
+}
+
+.menu li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 50px;
+    margin-left:50px;
+}
+.menu li a:hover{
+    border-bottom: 5px solid #FDD692;
+    color: #FDD692;
+}
+.titulo{
+    font-size: 35px;
+    text-align: center;
+    color: #754F44;
+    background-color: #FDD692;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.productos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.productos div{
+    width: 200px;
+    background-color: #FDD692;
+}
+.productos div:hover{
+    border: 5px solid #EC7357;
+    border-radius: 10px;
+}
+.productos div img{
+    width: 200px;
+    height: 200px;
+}
+div h2 {
+    text-align: center;
+}
+.ultParte{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logoComent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+}
+input:focus{
+    background-color: #FDD692;
+}
+.formulario{
+    background-color: #EC7357;
+    width: 300px;
+    margin-top: 80px;
+}
+footer{
+    background-color: #754F44;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer p{
+    text-align: center;
+}
